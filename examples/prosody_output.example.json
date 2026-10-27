@@ -1,0 +1,115 @@
+{
+ "duration_sec": 70.0,
+ "pitch": {
+  "median_hz": 360.7,
+  "range_st_5_95": 16.29,
+  "sd_st": 5.67,
+  "voiced_ratio": 0.284
+ },
+ "intensity": {
+  "mean_db": 82.5,
+  "sd_db": 3.7
+ },
+ "per_minute": [
+  {
+   "start_min": 0.0,
+   "f0_median_hz": 360.5,
+   "pitch_range_st_5_95": 16.76,
+   "pitch_sd_st": 5.76,
+   "intensity_sd_db": 3.91
+  },
+  {
+   "start_min": 1.0,
+   "f0_median_hz": 362.6,
+   "pitch_range_st_5_95": 4.81,
+   "pitch_sd_st": 1.43,
+   "intensity_sd_db": 2.58
+  }
+ ],
+ "speaking_rate": {
+  "mean_chars_per_sec": 5.96,
+  "p10": 5.38,
+  "p90": 6.71,
+  "fastest_segments": [
+   {
+    "t": 10.0,
+    "chars_per_sec": 7.0,
+    "text": "ご清聴ありがとうございました"
+   },
+   {
+    "t": 4.5,
+    "chars_per_sec": 5.6,
+    "text": "この手法は従来法に比べて精度が高いことを示しました"
+   },
+   {
+    "t": 1.0,
+    "chars_per_sec": 5.3,
+    "text": "本日は私の研究について発表します"
+   }
+  ]
+ },
+ "pauses_acoustic": {
+  "count_over_0.3s": 17,
+  "count_over_0.7s": 17,
+  "count_over_1.5s": 17,
+  "median_dur": 1.58,
+  "per_minute_count": 14.6,
+  "longest": [
+   {
+    "t": 18.2,
+    "dur": 1.58
+   },
+   {
+    "t": 22.2,
+    "dur": 1.58
+   },
+   {
+    "t": 2.2,
+    "dur": 1.58
+   },
+   {
+    "t": 6.2,
+    "dur": 1.58
+   },
+   {
+    "t": 10.2,
+    "dur": 1.58
+   },
+   {
+    "t": 14.2,
+    "dur": 1.58
+   },
+   {
+    "t": 26.2,
+    "dur": 1.58
+   },
+   {
+    "t": 30.2,
+    "dur": 1.58
+   },
+   {
+    "t": 34.2,
+    "dur": 1.58
+   },
+   {
+    "t": 38.2,
+    "dur": 1.58
+   }
+  ]
+ },
+ "pauses_from_segments": {
+  "count_over_0.25s": 2,
+  "longest": [
+   {
+    "t": 9.0,
+    "dur": 1.0,
+    "before": "ご清聴ありがとうございました"
+   },
+   {
+    "t": 4.0,
+    "dur": 0.5,
+    "before": "この手法は従来法に比べて精度が高いことを"
+   }
+  ]
+ }
+}

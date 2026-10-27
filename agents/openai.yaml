@@ -1,0 +1,4 @@
+interface:
+  display_name: "発表練習レビュー"
+  short_description: "練習動画・音声から内容・時間配分・抑揚を確認し、具体的な改善案をまとめる"
+  default_prompt: "$presentation-review を使って、この練習動画をレビューし、Advice.md に改善案をまとめてください。"

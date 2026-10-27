@@ -1,0 +1,24 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+
+# Local working files (never commit recordings or review outputs)
+scratch/
+[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_presentation_review*/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mov
+*.mkv
+transcript_*.txt
+Advice*.md
+!assets/advice_template.md
